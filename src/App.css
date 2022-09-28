@@ -27,7 +27,87 @@
 .App-link {
   color: #61dafb;
 }
+.input-element {
+  margin-top: 40px;
+  height: 40px;
+  width: 400px;
+  background-color: aliceblue;
+}
+.add-btn {
+  margin-left: 10px;
+  font-weight: bolder;
+  border-radius: 20px;
+  width: 70px;
+  background-color: rgb(255, 255, 255);
+}
+.container {
+  width: 700px;
+  height: 700px;
+  border: 1px solid rgb(255, 255, 255);
+  margin-left: 420px;
+  margin-top: 20px;
+  background-color: rgb(194, 129, 255);
+  border-radius: 15px;
+}
+::placeholder {
+  font-weight: bolder;
+  text-align: center;
+}
+.input-element:hover {
+  background-color: rgb(148, 205, 255);
+  }
+  
+h1 {
+  color: #fff5ee;
+  height: 40px;
+  width: 98%;
+  border: 1px solid black;
+  justify-content: center;
+  margin-left: 1%;
+  background-color: rgb(6, 6, 98);
+  border-radius: 5px;
+}
+h1:hover {
+  color: rgb(251, 163, 163);
+}
+.add-btn:hover {
+  background-color: rgb(206, 114, 114);
+}
 
+.list-heading {
+  background-color: rgb(194, 129, 255);
+  font-size: 18px;
+  font-weight: bold;
+}
+.remove-btn {
+  display: inline-block;
+  margin-left: 25px;
+  border: 2px solid black;
+  border-radius: 5px;
+  width: 70px;
+  background-color: #fff5ee;
+  font-weight: bold;
+  text-decoration: solid;
+}
+.remove-btn:hover {
+  background-color: aquamarine;
+}
+.remove-all-btn{
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 150px;
+  height: 26px;
+  font-weight: bolder;
+  font-size: 19px;
+  margin-top: 60px;
+  margin-left: 20px;
+}
+.remove-all-btn:hover{
+  text-transform: capitalize;
+  text-shadow: #282c34;
+  text-align: left;
+  background-color: aqua;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
